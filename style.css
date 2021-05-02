@@ -1,0 +1,306 @@
+/*Définition des polices personnalisèes*/
+@font-face
+{
+	font-family: 'Sans_Pro';
+	src: url('Sans-Pro/SourceSansPro-Regular.otf');	
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face
+{
+	font-family: 'Texte';
+	src: url('Quickstand/Quicksand-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Eléments principaux de la page */
+body, html{
+	height: 100%;
+}
+
+body
+{
+    background-color: #d6d6d6;
+    font-family: 'Texte', Arial, sans-serif;
+    font-weight: bold;
+
+
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: 'Sans_Pro', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+
+/* Header */
+header
+{
+    background-color: #000000;
+    color : #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 0 0 10px 10px;
+}
+
+
+#titre_principal
+{
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#titre_principal h1
+{
+	position: relative;
+	bottom: 15px;
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 50px;
+}
+
+header h1
+{
+    font-family: 'Sans_Pro', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 3px;
+    
+
+}
+
+header h2
+{
+    font-family: 'Sans_Pro', serif;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+
+/* Navigation */
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/* Corps acceuil*/
+section
+{
+	display: flex;
+	flex-direction: column;
+
+}
+article
+{
+	
+	display: block;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	text-align: center;
+
+}
+
+article h1
+{
+	text-align: center;
+	position: relative;
+	right: 10px;
+}
+
+.ico_res
+{
+	display: flex;
+	position: absolute;
+	top: 23%;
+	right: 40%;
+}
+
+aside
+{
+	display: block;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	text-align: center;
+}
+
+
+aside ul
+{
+	display: block;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	text-align: center;
+	list-style-type: none;
+
+}
+
+aside li
+{
+
+	padding: 5px
+}
+
+/*Coprs CV*/
+
+#CV
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	height: 50%;
+	margin-top: 5%;
+
+
+}
+#Formations
+{
+	text-align: center;
+
+}
+
+#Formations ul
+{
+	list-style: none;
+}
+
+#Formations li
+{
+	white-space: normal;
+}
+
+#Experiences
+{
+	text-align: center;
+
+}
+
+#Experiences ul
+{
+	list-style: none;
+}
+
+#Competences 
+{
+	text-align: center;
+}
+
+#Competences ul
+{
+	list-style: none;
+}
+
+/*Corps Contact*/
+#contact
+{
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	height: 70%;
+	margin-bottom: 4%;
+	margin-top: 5%;
+}
+
+#contact ul
+{
+	list-style-type: none;
+	font-size: 1.5em;
+}
+
+#contact li
+{
+	padding: 10px;
+}
+
+/* Footer */
+
+footer
+{ 
+	background-color: black;
+	width: 100%;
+	border-radius: 10px 10px 0 0 ;
+	height: 130px;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: row;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#Projet
+{
+    width: 50%;
+    color: white;
+}
+
+
+#CV
+{
+	margin-bottom: 0px;
+}
